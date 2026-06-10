@@ -23,3 +23,7 @@ input.addEventListener("input",()=>{
     output.textContent= input.value
 
 })
+const newvar=document.createElement("h1");
+newvar.textContent="New paragraph";
+document.body.appendChild(newvar);
+newvar.remove()
